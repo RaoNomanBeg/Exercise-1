@@ -1,0 +1,13 @@
+def multiply_or_sum(num1, num2):
+    product = num1 * num2
+    if product <= 1000:
+        return product
+    else:
+        return num1 + num2
+
+# Example usage:
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+result = multiply_or_sum(num1, num2)
+print("Result:", result)
